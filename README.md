@@ -10,9 +10,11 @@ var stream = mdc.DownloadUrl(url, timeSpan, directory);
 
 ### Parameter explanation
 
-url = file to download
-timeSpan = Minutes to keep the file cached before downloading it again
-directory = target folder to save the cached file.
+**url** = file to download
+
+**timeSpan** = Minutes to keep the file cached before downloading it again
+
+**directory** = target folder to save the cached file.
 
 ## Flowchart diagram
 
