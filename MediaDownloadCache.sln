@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29306.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaDownloadCache", "MediaDownloadCache.csproj", "{AE8EA8BB-2BD9-47E7-9CD6-26C43617ABA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{797DD9DB-C89F-4A0E-AB5B-516A2A8CE917}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE8EA8BB-2BD9-47E7-9CD6-26C43617ABA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE8EA8BB-2BD9-47E7-9CD6-26C43617ABA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE8EA8BB-2BD9-47E7-9CD6-26C43617ABA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE8EA8BB-2BD9-47E7-9CD6-26C43617ABA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{797DD9DB-C89F-4A0E-AB5B-516A2A8CE917}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{797DD9DB-C89F-4A0E-AB5B-516A2A8CE917}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{797DD9DB-C89F-4A0E-AB5B-516A2A8CE917}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{797DD9DB-C89F-4A0E-AB5B-516A2A8CE917}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {269A2BFC-4D54-4965-AE31-4695E00B8AE0}
+	EndGlobalSection
+EndGlobal
