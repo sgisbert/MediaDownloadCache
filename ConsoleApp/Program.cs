@@ -23,7 +23,7 @@ namespace ConsoleApp
             var timeSpan = 1;
 
             // File to download
-            string url = "https://www.pixelstalk.net/wp-content/uploads/2016/09/Free-Download-3D-Wallpaper-For-Laptop-Desktop.jpg";
+            string url = "https://raw.githubusercontent.com/sgisbert/MediaDownloadCache/master/Tests/test.jpg";
 
             // Get the file
             Download mdc = new Download();
