@@ -5,7 +5,7 @@ Adds a cache layer to downloaded files from a url
 
 ```c#
 Download mdc = new Download();
-var stream = mdc.DownloadUrl(url, timeSpan, directory);
+MemoryStream stream = mdc.DownloadUrl(url, timeSpan, directory);
 ```
 
 ### Parameter explanation
