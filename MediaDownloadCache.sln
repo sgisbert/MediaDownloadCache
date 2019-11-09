@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaDownloadCache", "Media
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{797DD9DB-C89F-4A0E-AB5B-516A2A8CE917}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{D42C965D-9FDA-4325-AF9B-68EC8FD64689}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{797DD9DB-C89F-4A0E-AB5B-516A2A8CE917}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{797DD9DB-C89F-4A0E-AB5B-516A2A8CE917}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{797DD9DB-C89F-4A0E-AB5B-516A2A8CE917}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D42C965D-9FDA-4325-AF9B-68EC8FD64689}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D42C965D-9FDA-4325-AF9B-68EC8FD64689}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D42C965D-9FDA-4325-AF9B-68EC8FD64689}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D42C965D-9FDA-4325-AF9B-68EC8FD64689}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
