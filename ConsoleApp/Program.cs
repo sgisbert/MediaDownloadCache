@@ -11,19 +11,25 @@ namespace ConsoleApp
     {
         static void Main(string[] args)
         {
+            // Setup parameters
+
+            // Cache folder destination
             string location = System.Reflection.Assembly.GetExecutingAssembly().Location;
+
+            // Cache folder name
             var directory = System.IO.Path.GetDirectoryName(location) + "\\cache";
+
+            // Time in minutes to keep the local file in cache
             var timeSpan = 1;
 
-            //string url = "https://images.unsplash.com/photo-1498036882173-b41c28a8ba34";
+            // File to download
             string url = "https://www.pixelstalk.net/wp-content/uploads/2016/09/Free-Download-3D-Wallpaper-For-Laptop-Desktop.jpg";
 
+            // Get the file
             Download mdc = new Download();
             var stream = mdc.DownloadUrl(url, timeSpan, directory);
 
             Console.WriteLine("Read " + stream.Length + " bytes");
-            
-
             Console.WriteLine("Press enter...");
             Console.ReadLine();
         }

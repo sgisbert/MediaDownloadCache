@@ -21,7 +21,7 @@ namespace MediaDownloadCache
             {
                 try
                 {
-                    wc.DownloadProgressChanged += wc_DownloadProgressChanged;
+                    //wc.DownloadProgressChanged += wc_DownloadProgressChanged;
                     wc.DownloadFileCompleted += wc_DownloadFileCompleted;
                     wc.QueryString.Add("target", target);
                     wc.DownloadFileAsync(new Uri(url), target);
@@ -52,11 +52,11 @@ namespace MediaDownloadCache
             }
         }
 
-        private static void wc_DownloadProgressChanged(object sender, DownloadProgressChangedEventArgs e)
-        {
-            // 50% | 5000 bytes out of 10000 bytes retrieven.
-            Console.WriteLine(e.ProgressPercentage + "% | " + e.BytesReceived + " bytes");
-        }
+        //private static void wc_DownloadProgressChanged(object sender, DownloadProgressChangedEventArgs e)
+        //{
+        //    // 50% | 5000 bytes out of 10000 bytes retrieven.
+        //    Console.WriteLine(e.ProgressPercentage + "% | " + e.BytesReceived + " bytes");
+        //}
 
         private static void wc_DownloadFileCompleted(object sender, AsyncCompletedEventArgs e)
         {
